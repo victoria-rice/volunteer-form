@@ -5,10 +5,17 @@
 @viewport { width: device-width; scale: 1; }
 
 html {
-  font-family: sans-serif;
+  font-family: 'Droid Serif', serif;
 }
+
 
 header,
 footer {
+  color: #fff;
   background-color: #70ad55;
+}
+
+button {
+  background-color: #6e8c62;
+  border: none;
 }
