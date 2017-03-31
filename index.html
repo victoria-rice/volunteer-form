@@ -11,7 +11,7 @@
     <p>Trees are one of the world’s most precious renewable resources—we need your help to renew the ecosystem.</p>
   </header>
 
-  <form method="post" action="">
+  <form method="post" action="volunteer">
 
     <div>
       <h2>Personal details</h2>
@@ -55,83 +55,108 @@
         <label for="phone">Phone number (optional)</label>
         <input id="phone">
       </div>
-    </div>
-
-    <div>
-      <h2>Address</h2>
+     </div>
 
       <div>
-        <label for="street">Street address</label>
-        <input id="street">
+        <h2>Address</h2>
+
+        <div>
+          <label for="street">Street address</label>
+          <input id="street">
+        </div>
+
+        <div>
+          <label for="city">City</label>
+          <input id="city">
+        </div>
+
+        <div>
+          <label for="province">Province</label>
+          <select id="province">
+            <option>Select a province</option>
+            <option>Alberta</option>
+            <option>British Columbia</option>
+            <option>Manitoba</option>
+            <option>New Brunswick</option>
+            <option>Newfoundland Labrador</option>
+            <option>Northwest Territories</option>
+            <option>Nova Scotia</option>
+            <option>Nunavut</option>
+            <option>Ontario</option>
+            <option>Prince Edward Island</option>
+            <option>Québec</option>
+            <option>Saskatchewan</option>
+            <option>Yukon</option>
+        </div>
+
+        <div>
+          <label for="postalcode">Postal code</label>
+          <input id="postalcode">
+        </div>
       </div>
 
       <div>
-        <label for="city">City</label>
-        <input id="city">
-      </div>
+        <fieldset>
+          <legend>What activities are you interested in helping with?</legend>
+            <ul>
+              <li><input type="radio" name="activity" id="holes" value="holes" /><label for="holes">Digging holes</label></li>
+              <li><input type="radio" name="activity" id="dirty" value="dirty" /><label for="dirty">Getting dirty</label></li>
+              <li><input type="radio" name="activity" id="heavy" value="heavy" /><label for="heavy">Lifting heavy objects</label></li>
+              <li><input type="radio" name="activity" id="driver" value="driver" /><label for="driver">Driving people</label></li>
+              <li><input type="radio" name="activity" id="trees" value="trees" /><label for="trees">Transporting trees</label></li>
+              <li><input type="radio" name="activity" id="photos" value="photos" /><label for="photos">Taking photos</label></li>
+              <li><input type="radio" name="activity" id="web" value="web" /><label for="web">Online publishing</label></li>
+              <li><input type="radio" name="activity" id="manage" value="manage" /><label for="manage">Managing people</label></li>
+            </ul>
+          </fieldset>
 
-      <div>
-        <label for="province">Province</label>
-        <select id="province">
-          <option>Select a province</option>
-          <option>Alberta</option>
-          <option>British Columbia</option>
-          <option>Manitoba</option>
-          <option>New Brunswick</option>
-          <option>Newfoundland Labrador</option>
-          <option>Northwest Territories</option>
-          <option>Nova Scotia</option>
-          <option>Nunavut</option>
-          <option>Ontario</option>
-          <option>Prince Edward Island</option>
-          <option>Québec</option>
-          <option>Saskatchewan</option>
-          <option>Yukon</option>
-      </div>
-
-      <div>
-        <label for="postalcode">Postal code</label>
-        <input id="postalcode">
-      </div>
-    </div>
-
-    <div>
-      <fieldset>
-        <legend>What activities are you interested in helping with?</legend>
-          <ul>
-            <li><input type="radio" name="activity" id="holes" value="holes" /><label for="holes">Digging holes</label></li>
-            <li><input type="radio" name="activity" id="dirty" value="dirty" /><label for="dirty">Getting dirty</label></li>
-            <li><input type="radio" name="activity" id="heavy" value="heavy" /><label for="heavy">Lifting heavy objects</label></li>
-            <li><input type="radio" name="activity" id="driver" value="driver" /><label for="driver">Driving people</label></li>
-            <li><input type="radio" name="activity" id="trees" value="trees" /><label for="trees">Transporting trees</label></li>
-            <li><input type="radio" name="activity" id="photos" value="photos" /><label for="photos">Taking photos</label></li>
-            <li><input type="radio" name="activity" id="web" value="web" /><label for="web">Online publishing</label></li>
-            <li><input type="radio" name="activity" id="manage" value="manage" /><label for="manage">Managing people</label></li>
-          </ul>
+        <fieldset>
+          <legend>Do you have any experience with the following?</legend>
+            <ul>
+              <li><input type="radio" name="experience" id="shovels" value="shovels" /><label for="shovels">Shovels</label></li>
+              <li><input type="radio" name="experience" id="navagation" value="navagation" /><label for="navagation">Hand-held GPS</label></li>
+              <li><input type="radio" name="experience" id="blogging" value="blogging" /><label for="blogging">Writing and blogging</label></li>
+              <li><input type="radio" name="experience" id="photos" value="photos" /><label for="photos">Photography</label></li>
+              <li><input type="radio" name="experience" id="climbing" value="climbing" /><label for="climbing">Trail and hill climbing</label></li>
+              <li><input type="radio" name="experience" id="bush" value="bush" /><label for="bush">Bush craft</label></li>
+              <li><input type="radio" name="experience" id="atv" value="atv" /><label for="atv">ATVs</label></li>
+              <li><input type="radio" name="experience" id="plants" value="plants" /><label for="plants">Plant identification</label></li>
+              <li><input type="radio" name="experience" id="events" value="events" /><label for="events">Special event planning</label></li>
+              <li><input type="radio" name="experience" id="speach" value="speach" /><label for="speach">Speaking to groups</label></li>
+            </ul>
         </fieldset>
+      </div>
 
-      <fieldset>
-        <legend>Do you have any experience with the following?</legend>
-          <ul>
-            <li><input type="radio" name="experience" id="shovels" value="shovels" /><label for="shovels">Shovels</label></li>
-            <li><input type="radio" name="experience" id="navagation" value="navagation" /><label for="navagation">Hand-held GPS</label></li>
-            <li><input type="radio" name="experience" id="blogging" value="blogging" /><label for="blogging">Writing and blogging</label></li>
-            <li><input type="radio" name="experience" id="photos" value="photos" /><label for="photos">Photography</label></li>
-            <li><input type="radio" name="experience" id="climbing" value="climbing" /><label for="climbing">Trail and hill climbing</label></li>
-            <li><input type="radio" name="experience" id="bush" value="bush" /><label for="bush">Bush craft</label></li>
-            <li><input type="radio" name="experience" id="atv" value="atv" /><label for="atv">ATVs</label></li>
-            <li><input type="radio" name="experience" id="plants" value="plants" /><label for="plants">Plant identification</label></li>
-            <li><input type="radio" name="experience" id="events" value="events" /><label for="events">Special event planning</label></li>
-            <li><input type="radio" name="experience" id="speach" value="speach" /><label for="speach">Speaking to groups</label></li>
-          </ul>
-      </fieldset>
-    </div>
+      <div>
+        <div>
+          <label for="street">Do you have a valid driver’s license?</label>
+          <input type="checkbox" id="street">
+        </div>
 
-    <div>
-      
+        <div>
+          <label for="city">Do you have a pick-up truck you’d be willing to use</label>
+          <input type="checkbox" id="city">
+        </div>
 
-  </form>
+        <div>
+          <label for="city">Do you have up-to-date first-aid certification?</label>
+          <input type="checkbox" id="city">
+        </div>
 
+        <div>
+          <input type="comments" id= "qq" name="comments">
+          <textarea id="qq" name="comment">Please let us know any comments or questions you may have.</textarea>
+        </div>
 
-</body>
+        <div>
+          <button type="submit">Apply</button>
+        </div>
+      </div>
+    </form>
+
+    <footer>
+      <p>© Tree Hugger International Organization</p>
+    </footer>
+  </body>
+
 </html>
