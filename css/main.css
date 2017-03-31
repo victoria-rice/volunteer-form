@@ -8,8 +8,17 @@ html {
   font-family: "Droid Serif", serif;
 }
 
+fieldset {
+  border: none;
+}
+
 input {
   border-color: #6e8c62;
+}
+
+ul,
+li {
+  list-style-type: none;
 }
 
 header,
