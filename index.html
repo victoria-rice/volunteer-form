@@ -128,35 +128,43 @@
       </div>
 
       <div>
-        <div>
-          <label for="street">Do you have a valid driver’s license?</label>
-          <input type="checkbox" id="street">
-        </div>
+        <fieldset>
+          <legend>Do you have a valid driver’s license?</legend>
+            <ul>
+              <li><input type="checkbox" name="question" id="yes" value="yes" /><label for="yes">yes</label></li>
+              <li><input type="checkbox" name="question" id="no" value="no" /><label for="no">no</label></li>
+            </ul>
+        </fieldset>
 
-        <div>
-          <label for="city">Do you have a pick-up truck you’d be willing to use</label>
-          <input type="checkbox" id="city">
-        </div>
+        <fieldset>
+          <legend>Do you have a pick-up truck you’d be willing to use</legend>
+            <ul>
+              <li><input type="checkbox" name="question" id="yes" value="yes" /><label for="yes">yes</label></li>
+              <li><input type="checkbox" name="question" id="no" value="no" /><label for="no">no</label></li>
+            </ul>
+        </fieldset>
 
-        <div>
-          <label for="city">Do you have up-to-date first-aid certification?</label>
-          <input type="checkbox" id="city">
-        </div>
+        <fieldset>
+          <legend>Do you have up-to-date first-aid certification?</legend>
+            <ul>
+              <li><input type="checkbox" name="question" id="yes" value="yes" /><label for="yes">yes</label></li>
+              <li><input type="checkbox" name="question" id="no" value="no" /><label for="no">no</label></li>
+            </ul>
+        </fieldset>
 
-        <div>
-          <input type="comments" id= "qq" name="comments">
-          <textarea id="qq" name="comment">Please let us know any comments or questions you may have.</textarea>
-        </div>
-
-        <div>
-          <button type="submit">Apply</button>
-        </div>
+      <div>
+        <textarea id="qq" type="" name="comment">Please let us know any comments or questions you may have.</textarea>
       </div>
-    </form>
 
-    <footer>
-      <p>© Tree Hugger International Organization</p>
-    </footer>
-  </body>
+      <div>
+        <button type="submit">Apply</button>
+      </div>
+    </div>
+  </form>
+
+  <footer>
+    <p>© Tree Hugger International Organization</p>
+  </footer>
+</body>
 
 </html>
